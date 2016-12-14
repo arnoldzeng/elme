@@ -36,8 +36,9 @@
     width: 100%;
     height: 40px;
     line-height: 40px;
-    @include border-1px(rgba(7,17,27,0.1));
-    //border-bottom: 1px solid rgba(7,17,27,0.1);
+    /*对于border要对它进行一个mixmin，在手机里看会是两倍*/
+    @include border-1px(rgba(0,100,224,0.1));
+    //border-bottom: 1px solid rgba(240,20,27,0.1);
     .tab-item{
        flex:1;
        text-align: center;

@@ -1,3 +1,4 @@
+//这是对border的变量设定
 @mixin border-1px($color){
   position: relative;
   &:after{
